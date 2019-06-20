@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="water_overflow",
+    name="water_flow",
     version="1.0.0",
     author="Sendhil",
     author_email="sendhildz@gmail.com",
-    description="Water Overflow Calculator",
+    description="Water Flow Calculator",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/sendhilg/water-overflow-calculator",
+    url="https://github.com/sendhilg/water-flow-calculator",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

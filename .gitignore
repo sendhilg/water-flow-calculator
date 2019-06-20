@@ -3,3 +3,9 @@ __pycache__
 *.pyc
 htmlcov
 .coverage
+.tox
+*.egg-info
+.vscode
+results.xml
+coverage.xml
+unittest-report

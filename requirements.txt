@@ -1,3 +1,4 @@
 pytest
-isort
-flake8
+pytest-cov
+pytest-isort
+pytest-flake8
