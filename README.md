@@ -10,7 +10,8 @@ To check the version on your machine run the below command:
 
     $ python --version
 
-This project uses tox as a generic virtualenv management and test command line tool. 
+This project uses tox as a generic virtualenv management and test command line tool for local development/testing purposes. 
+
 Install tox using the below command.
 
     $ pip3 install tox
@@ -28,16 +29,17 @@ Change into the project directory 'water_flow_calculator'.
 The application prompts the user to enter values for the below at the command line.
 * `Quantity` Quantity of water poured.
 * `Row Number` Row number for the glass.
-* `Glass Nmber` Glass number on the row for which the flow needs to be calculated.
+* `Glass Number` Glass number on the row for which the flow needs to be calculated.
 
-To enter vaues at the command line, type the below tox command and press enter:
+To enter values at the command line, type the below tox command and press enter:
 
     $ tox -e flow_calculator
 
+Wait for tox to build the virtualenv and install dependencies. This may take few seconds the first time
+the virtualenv is built and should be faster with successive runs of tox. Once the virtualenv is built enter commands as below.
+
 ### Example
 ```
-$ tox -e flow_calculator
-
 Enter water quantity poured in litres:
 0.50
 
