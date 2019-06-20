@@ -10,7 +10,13 @@ To check the version on your machine run the below command:
 
     $ python --version
 
+This project uses tox as a generic virtualenv management and test command line tool. 
+Install tox using the below command.
+
+    $ pip3 install tox
+
 ## Cloning the project and running the application
+
 Clone the project from github. 
 
     $ git clone https://github.com/sendhilg/water-flow-calculator.git
@@ -23,10 +29,10 @@ To accept input at the command line, type the below tox command, press enter:
 
     $ tox -e flow_calculator
 
-The application prompts the user to input the values for the below. 
+The application prompts the user to input the values for the below.
 * `Quantity` Quantity of water poured.
 * `Row Number` Row number for the glass.
-* `Glass Nmber` Glass number for on the row for which the flow needs to be calculated.
+* `Glass Nmber` Glass number on the row for which the flow needs to be calculated.
 
 ### Example
 ```

@@ -3,7 +3,7 @@
 
 ## Description and requirements:
 
-![image info](./images/water_overflow_problem.png)
+![Water Overflow Problem](./images/water_overflow_problem.PNG)
 
 There is a stack of water glasses in a form of triangle as illustrated. Each glass has a 250ml capacity.
 When a liquid is poured into the top most glass any overflow is evenly distributed between the
