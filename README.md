@@ -25,14 +25,14 @@ Change into the project directory 'water_flow_calculator'.
 
     $ cd water-flow-calculator
 
-To accept input at the command line, type the below tox command, press enter:
-
-    $ tox -e flow_calculator
-
-The application prompts the user to input the values for the below.
+The application prompts the user to enter values for the below at the command line.
 * `Quantity` Quantity of water poured.
 * `Row Number` Row number for the glass.
 * `Glass Nmber` Glass number on the row for which the flow needs to be calculated.
+
+To enter vaues at the command line, type the below tox command and press enter:
+
+    $ tox -e flow_calculator
 
 ### Example
 ```
